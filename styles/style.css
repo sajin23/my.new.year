@@ -1,0 +1,69 @@
+*{
+    font-family: 'Inter', sans-serif;
+font-family: 'Work Sans', sans-serif;
+margin: 0;
+}
+.header{
+    background-color: wheat;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.btn-primary{
+    width: 160px;
+height: 64px;
+width: 109px;
+height: 23px;
+color: #005FAC;
+background: #FFFFFF;
+padding:19px 36px;
+margin-right: 230px;
+}
+/* banner */
+.banner-one{
+  text-align:right;
+  margin-left: 845px;
+  padding: 216px 0;
+}
+
+.banner-title{
+    font-weight: 700;
+font-size: 65px;
+color: #FFFFFF;
+text-align: right;
+width: 525px;
+height: 228px;
+margin-bottom: 24px;
+}
+.banner-desc{
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+text-align: right;
+width: 494px;
+height: 78px;
+padding-bottom: 32px;
+
+}
+/* some */
+.middle{
+display: flex;
+width: 416px;
+height: 400px;
+}
+.middle-title{
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+}
+.middle-desc{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+
+}
+.middle-li{
+    font-weight: 400;
+font-size: 16px;
+color: #444343;
+}
