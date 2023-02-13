@@ -4,20 +4,16 @@ font-family: 'Work Sans', sans-serif;
 margin: 0;
 }
 .header{
-    background-color: wheat;
+    background-color: white;
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .btn-primary{
     width: 160px;
-height: 64px;
-width: 109px;
-height: 23px;
-color: #005FAC;
-background: #FFFFFF;
-padding:19px 36px;
-margin-right: 230px;
+    height: 64px;
+    border-radius: 5px;
+    margin-right: 230px;
 }
 /* banner */
 .banner-one{
@@ -48,22 +44,139 @@ padding-bottom: 32px;
 /* some */
 .middle{
 display: flex;
-width: 416px;
-height: 400px;
+margin: 0 300px;
+margin-top: 130px;
+}
+.photo{
+    margin-top: 130px;
+    width: 569px;
+height: 723.3px;
+}
+.middle-pera{
+    margin-top: 390px;
+    margin-left: 83px;
+    width: 416px;
+    height: 400px;
 }
 .middle-title{
     font-weight: 700;
 font-size: 40px;
 color: #151414;
+margin-bottom: 24px;
 }
 .middle-desc{
     font-weight: 400;
 font-size: 16px;
 color: #444343;
-
+margin-bottom: 16px;
 }
 .middle-li{
     font-weight: 400;
 font-size: 16px;
 color: #444343;
+}
+/* plan */
+.plan-title{
+    text-align: center;
+    font-weight: 700;
+font-size: 40px;
+color: #151414;
+margin-top: 131px;
+}
+.hole-plans{
+    display: flex;
+     gap: 86px;
+     margin-left: 159px;
+     margin-right: 229px;
+     margin-top: 50px;
+     margin-bottom: 125px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.plan-desc{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272
+}
+/* call */
+.call{
+    margin-top: 124px;
+    background-image: url(../images/gradient1.png),url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 230px;
+    border-radius: 8px;
+}
+.call-one{
+    margin: 0 50px;
+    width: 459px;
+    height: 182px;
+    padding-top:  59px;
+}
+.call-title{
+    font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+}
+.call-btn{
+    width: 160px;
+height: 64px;
+}
+.end{
+    margin-top: 150px;
+    background-color: #151414;
+    display: flex;
+}
+.end-title{
+    font-weight: 700;
+font-size: 46px;
+color: #FFFFFF;
+}
+.end-desc{
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+}
+.another{
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF; 
+margin-top: 10px;
+}
+.end-pera{
+    width: 485px;
+height: 317px;
+margin-left: 230px;
+padding-top: 110px;
+}
+.icons{
+    margin-top: 10px;
+}
+.subscribe{
+    margin-left: 332px;
+    padding-top: 110px;
+}
+.subs-title{
+    font-weight: 600;
+font-size: 25px;
+color: #FFFFFF;
+}
+.subs-button{
+    width: 170.11px;
+height: 64px;
+background-color:blue ;
+border-radius: 8px;
+}
+.subscribe input[type="email"]{
+    width: 325px;
+height: 64px;
+font-weight: 400;
+font-size: 18px;
+padding: 0 22px;
+color: #FFFFFF;
+background-color: #151414;
+border-radius: 8px;
 }
